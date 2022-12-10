@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "4159396"))
 API_HASH = os.environ.get("API_HASH", "adc6d985a765e4fa2f305bf04b8d6443")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "1705909373"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1705909373"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "634637418"))
@@ -64,7 +64,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(634637418)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
